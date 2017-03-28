@@ -1,0 +1,214 @@
+cloudtrail-service-disabled:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+cloudtrail-inventory:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+no-global-trails:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+cloudwatch-rule-1:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-inventory-instances:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-inventory-security-groups:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-ip-address-whitelisted:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-unrestricted-traffic:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-TCP-1521-0.0.0.0/0:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-TCP-3306-0.0.0.0/0:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-TCP-5432-0.0.0.0/0:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-TCP-1433-0.0.0.0/0:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-TCP-27017-0.0.0.0/0:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-TCP-3389-0.0.0.0/0:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-TCP-22-0.0.0.0/0:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-TCP-5439-0.0.0.0/0:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-TCP-23-0.0.0.0/0:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-TCP-21-0.0.0.0/0:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-TCP-20-0.0.0.0/0:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-ports-range:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+ec2-not-used-security-groups:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+elb-inventory:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+elb-old-ssl-policy:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+elb-current-ssl-policy:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-inventory-users:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-inventory-roles:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-inventory-policies:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-inventory-groups:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-unusediamgroup:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-inactive-key-no-rotation:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-active-key-no-rotation:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-missing-password-policy:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-passwordreuseprevention:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-expirepasswords:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-no-mfa:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-root-no-mfa:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-root-active-key:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-root-active-password:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-user-attached-policies:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-password-policy-uppercase:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-password-policy-lowercase:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-password-policy-symbol:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-password-policy-number:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-password-policy-min-length:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-root-access-key-1:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+iam-root-access-key-2:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+kms-rule-1:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+rds-short-backup-retention-period:
+  - cc-57980ce2d13-kubedev: 2017-01-10T00:00Z
+rds-no-auto-minor-version-upgrade:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: ''
+rds-db-publicly-accessible:
+  - put-your-object-id-here: ''
+rds-inventory:
+  - cc-57980ce2d13-kubedev: 2017-01-30T14:44Z
+redshift-inventory:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+redshift-publicly-accessible:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+redshift-encrypted:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+redshift-no-version-upgrade:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+redshift-no-require-ssl:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+redshift-no-user-logging:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+redshift-snapshot-retention:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+s3-allusers-write:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-02-10T00:00Z
+s3-allusers-write-acp:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-02-10T00:00Z
+s3-allusers-read:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+s3-authenticatedusers-write:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+s3-authenticatedusers-write-acp:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+s3-authenticatedusers-read:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+s3-logging-disabled:
+  - cloudcoreo-backups-a: ''
+  - api.docs.hack.cloudcoreo.com: 2017-01-10T00:00Z
+  - cloudcoreo-custom-dashboards-dev: 2017-02-10T00:00Z
+s3-world-open-policy-delete:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+s3-world-open-policy-get:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+s3-world-open-policy-list:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+s3-world-open-policy-put:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+s3-world-open-policy-all:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+s3-only-ip-based-policy:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z
+sns-rule-1:
+  - put-your-object-id-here-1: ''
+  - put-your-object-id-here-2: 2017-01-10T00:00Z

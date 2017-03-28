@@ -1,0 +1,268 @@
+cloudtrail-service-disabled:
+  Region: +__OBJECT__.violations.__RULE__.region+~https://console.aws.amazon.com/cloudtrail/home?region=+__OBJECT__.violations.__RULE__.region+#
+no-global-trails:
+  Region: +__OBJECT__.violations.__RULE__.region+~https://console.aws.amazon.com/cloudtrail/home?region=+__OBJECT__.violations.__RULE__.region+#
+cloudtrail-inventory:
+  Trail Name: __OBJECT__~https://+__OBJECT__.violations.__RULE__.region+.console.aws.amazon.com/cloudtrail/home?region=+__OBJECT__.violations.__RULE__.region+#/configuration/+__OBJECT__.violations.__RULE__.result_info.0.object.trail_arn+
+  Includes Global Events: +__OBJECT__.violations.__RULE__.result_info.0.object.include_global_service_events+
+  Multi-region Trail: +__OBJECT__.violations.__RULE__.result_info.0.object.is_multi_region_trail+
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+cloudtrail-no-global-trails:
+  Region: +__OBJECT__.violations.__RULE__.region+~https://console.aws.amazon.com/cloudtrail/home?region=+__OBJECT__.violations.__RULE__.region+#
+cloudwatch-rule-1:
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-inventory-instances:
+  Instance Name: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#Instances:search=+__OBJECT__.violations.__RULE__.result_info.0.object.instance_id+;sort=instanceId
+  Instance Type: +__OBJECT__.violations.__RULE__.result_info.0.object.instance_type+
+  VPC: +__OBJECT__.violations.__RULE__.result_info.0.object.vpc_id+
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-inventory-security-groups:
+  Security Group: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#SecurityGroups:search=__OBJECT__;sort=desc:tag:Name
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-ip-address-whitelisted:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#SecurityGroups:search=+__OBJECT__+;sort=desc:tag:Name
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-unrestricted-traffic:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#SecurityGroups:search=__OBJECT__;sort=desc:tag:Name
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-TCP-1521-0.0.0.0/0:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#SecurityGroups:search=__OBJECT__;sort=desc:tag:Name
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-TCP-3306-0.0.0.0/0:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#SecurityGroups:search=__OBJECT__;sort=desc:tag:Name
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-TCP-5432-0.0.0.0/0:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#SecurityGroups:search=__OBJECT__;sort=desc:tag:Name
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-TCP-1433-0.0.0.0/0:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#SecurityGroups:search=__OBJECT__;sort=desc:tag:Name
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-TCP-27017-0.0.0.0/0:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#SecurityGroups:search=__OBJECT__;sort=desc:tag:Name
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-TCP-3389-0.0.0.0/0:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#SecurityGroups:search=__OBJECT__;sort=desc:tag:Name
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-TCP-22-0.0.0.0/0:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#SecurityGroups:search=__OBJECT__;sort=desc:tag:Name
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-TCP-5439-0.0.0.0/0:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#SecurityGroups:search=__OBJECT__;sort=desc:tag:Name
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-TCP-23-0.0.0.0/0:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#SecurityGroups:search=__OBJECT__;sort=desc:tag:Name
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-TCP-21-0.0.0.0/0:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#SecurityGroups:search=__OBJECT__;sort=desc:tag:Name
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-TCP-20-0.0.0.0/0:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#SecurityGroups:search=__OBJECT__;sort=desc:tag:Name
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-ports-range:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#SecurityGroups:search=__OBJECT__;sort=desc:tag:Name
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+ec2-not-used-security-groups:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#SecurityGroups:search=__OBJECT__;sort=desc:tag:Name
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+elb-inventory:
+  Load Balancer: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#LoadBalancers:search=__OBJECT__
+  VPC: +__OBJECT__.violations.__RULE__.result_info.0.object.vpc_id+
+  Security Group: +__OBJECT__.violations.__RULE__.result_info.0.object.source_security_group.group_name+
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+elb-old-ssl-policy:
+  Load Balancer: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#LoadBalancers:search=__OBJECT__
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+elb-current-ssl-policy:
+  Load Balancer: __OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#LoadBalancers:search=__OBJECT__
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+iam-inventory-users:
+  IAM Users: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/users/__OBJECT__
+  User ID: +__OBJECT__.violations.__RULE__.result_info.0.object.user_id+
+  User ARN: +__OBJECT__.violations.__RULE__.result_info.0.object.arn+
+  User Create Date: +__OBJECT__.violations.__RULE__.result_info.0.object.create_date+
+  Password Last Used: +__OBJECT__.violations.__RULE__.result_info.0.object.password_last_used+
+iam-inventory-roles:
+  IAM Role: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/roles/+__OBJECT__.violations.__RULE__.result_info.0.object.role_name+
+  Role Name: +__OBJECT__.violations.__RULE__.result_info.0.object.role_name+
+  Role ARN: +__OBJECT__.violations.__RULE__.result_info.0.object.arn+
+  Create Date: +__OBJECT__.violations.__RULE__.result_info.0.object.create_date+
+iam-inventory-policies:
+  IAM Policy: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/policies/+__OBJECT__.violations.__RULE__.result_info.0.object.arn+
+  Policy Name: +__OBJECT__.violations.__RULE__.result_info.0.object.policy_name+
+  Policy ARN: +__OBJECT__.violations.__RULE__.result_info.0.object.arn+
+  Create Date: +__OBJECT__.violations.__RULE__.result_info.0.object.create_date+
+iam-inventory-groups:
+  IAM Group: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/groups/+__OBJECT__.violations.__RULE__.result_info.0.object.group_name+
+  Group Name: +__OBJECT__.violations.__RULE__.result_info.0.object.group_name+
+  Group ARN: +__OBJECT__.violations.__RULE__.result_info.0.object.arn+
+  Create Date: +__OBJECT__.violations.__RULE__.result_info.0.object.create_date+
+iam-unusediamgroup:
+  Group Name: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/groups/__OBJECT__
+  Group ARN: +__OBJECT__.violator_info.arn+
+iam-inactive-key-no-rotation:
+  IAM Key: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/users/+__OBJECT__.violations.__RULE__.result_info.0.object.user_name+?section=security_credentials
+  User Name: +__OBJECT__.violations.__RULE__.result_info.0.object.user_name+
+  Key Create Date: +__OBJECT__.violations.__RULE__.result_info.0.object.create_date+
+iam-active-key-no-rotation:
+  IAM Key: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/users/+__OBJECT__.violations.__RULE__.result_info.0.object.user_name+?section=security_credentials
+  User Name: +__OBJECT__.violations.__RULE__.result_info.0.object.user_name+
+  Key Create Date: +__OBJECT__.violations.__RULE__.result_info.0.object.create_date+
+iam-missing-password-policy:
+  Password Policy: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/account_settings
+iam-passwordreuseprevention:
+  Password Policy: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/account_settings
+iam-expirepasswords:
+  Password Policy: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/account_settings
+iam-no-mfa:
+  User Name: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/users/__OBJECT__?section=security_credentials
+  Group ARN: +__OBJECT__.violator_info.arn+
+iam-root-no-mfa:
+  Password Policy: __OBJECT__~https://us-east-1.console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/credential_report
+iam-root-active-key:
+  Password Policy: __OBJECT__~https://us-east-1.console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/credential_report
+iam-root-active-password:
+  Password Policy: __OBJECT__~https://us-east-1.console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/credential_report
+iam-user-attached-policies:
+  User Policies: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/users/__OBJECT__?section=permissions
+iam-password-policy-uppercase:
+  Password Policy: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/account_settings
+iam-password-policy-lowercase:
+  Password Policy: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/account_settings
+iam-password-policy-symbol:
+  Password Policy: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/account_settings
+iam-password-policy-number:
+  Password Policy: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/account_settings
+iam-password-policy-min-length:
+  Password Policy: __OBJECT__~https://console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/account_settings
+iam-root-access-key-1:
+  Password Policy: __OBJECT__~https://us-east-1.console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/credential_report
+iam-root-access-key-2:
+  Password Policy: __OBJECT__~https://us-east-1.console.aws.amazon.com/iam/home?region=+__OBJECT__.violations.__RULE__.region+#/credential_report
+kms-rule-1:
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+rds-short-backup-retention-period:
+  RDS Instance: __OBJECT__~https://console.aws.amazon.com/rds/home?region=+__OBJECT__.violations.__RULE__.region+#dbinstances:id=__OBJECT__;sf=all
+  Backup Retention Period: +__OBJECT__.violations.__RULE__.result_info.0.object.backup_retention_period+
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+rds-no-auto-minor-version-upgrade:
+  RDS Instance: __OBJECT__~https://console.aws.amazon.com/rds/home?region=+__OBJECT__.violations.__RULE__.region+#dbinstances:id=__OBJECT__;sf=all
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+rds-db-publicly-accessible:
+  RDS Instance: __OBJECT__~https://console.aws.amazon.com/rds/home?region=+__OBJECT__.violations.__RULE__.region+#dbinstances:id=__OBJECT__;sf=all
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+rds-inventory:
+  RDS Instance: __OBJECT__~https://console.aws.amazon.com/rds/home?region=+__OBJECT__.violations.__RULE__.region+#dbinstances:id=__OBJECT__;sf=all
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  Engine Type: +__OBJECT__.violations.__RULE__.result_info.0.object.engine+
+  Engine Version: +__OBJECT__.violations.__RULE__.result_info.0.object.engine_version+
+  Instance Type: +__OBJECT__.violations.__RULE__.result_info.0.object.db_instance_class+
+  AWS Tags: __TAGS__
+redshift-inventory:
+  AWS Object ID: __OBJECT__~https://+__OBJECT__.violations.__RULE__.region+.console.aws.amazon.com/redshift/home?region=+__OBJECT__.violations.__RULE__.region+#cluster-details:cluster=__OBJECT__
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+redshift-publicly-accessible:
+  AWS Object ID: __OBJECT__~https://+__OBJECT__.violations.__RULE__.region+.console.aws.amazon.com/redshift/home?region=+__OBJECT__.violations.__RULE__.region+#cluster-details:cluster=__OBJECT__
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+redshift-encrypted:
+  AWS Object ID: __OBJECT__~https://+__OBJECT__.violations.__RULE__.region+.console.aws.amazon.com/redshift/home?region=+__OBJECT__.violations.__RULE__.region+#cluster-details:cluster=__OBJECT__
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+redshift-no-version-upgrade:
+  AWS Object ID: __OBJECT__~https://+__OBJECT__.violations.__RULE__.region+.console.aws.amazon.com/redshift/home?region=+__OBJECT__.violations.__RULE__.region+#cluster-details:cluster=__OBJECT__
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+redshift-no-require-ssl:
+  AWS Object ID: __OBJECT__~https://+__OBJECT__.violations.__RULE__.region+.console.aws.amazon.com/redshift/home?region=+__OBJECT__.violations.__RULE__.region+#edit-parameter-group:param-group=__OBJECT__;cluster=
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+redshift-no-user-logging:
+  AWS Object ID: __OBJECT__~https://+__OBJECT__.violations.__RULE__.region+.console.aws.amazon.com/redshift/home?region=+__OBJECT__.violations.__RULE__.region+#edit-parameter-group:param-group=__OBJECT__;cluster=
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+redshift-snapshot-retention:
+  AWS Object ID: __OBJECT__~https://+__OBJECT__.violations.__RULE__.region+.console.aws.amazon.com/redshift/home?region=+__OBJECT__.violations.__RULE__.region+#cluster-details:cluster=__OBJECT__
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+s3-allusers-write:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/s3/home?region=+__OBJECT__.violations.__RULE__.region+#&bucket=+__OBJECT__+&prefix=
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+s3-allusers-write-acp:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/s3/home?region=+__OBJECT__.violations.__RULE__.region+#&bucket=+__OBJECT__+&prefix=
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+s3-allusers-read:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/s3/home?region=+__OBJECT__.violations.__RULE__.region+#&bucket=+__OBJECT__+&prefix=
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+s3-authenticatedusers-write:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/s3/home?region=+__OBJECT__.violations.__RULE__.region+#&bucket=+__OBJECT__+&prefix=
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+s3-authenticatedusers-write-acp:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/s3/home?region=+__OBJECT__.violations.__RULE__.region+#&bucket=+__OBJECT__+&prefix=
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+s3-authenticatedusers-read:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/s3/home?region=+__OBJECT__.violations.__RULE__.region+#&bucket=+__OBJECT__+&prefix=
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+s3-logging-disabled:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/s3/home?region=+__OBJECT__.violations.__RULE__.region+#&bucket=+__OBJECT__+&prefix=
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+s3-world-open-policy-delete:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/s3/home?region=+__OBJECT__.violations.__RULE__.region+#&bucket=+__OBJECT__+&prefix=
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+s3-world-open-policy-get:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/s3/home?region=+__OBJECT__.violations.__RULE__.region+#&bucket=+__OBJECT__+&prefix=
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+s3-world-open-policy-list:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/s3/home?region=+__OBJECT__.violations.__RULE__.region+#&bucket=+__OBJECT__+&prefix=
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+s3-world-open-policy-put:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/s3/home?region=+__OBJECT__.violations.__RULE__.region+#&bucket=+__OBJECT__+&prefix=
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+s3-world-open-policy-all:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/s3/home?region=+__OBJECT__.violations.__RULE__.region+#&bucket=+__OBJECT__+&prefix=
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+s3-only-ip-based-policy:
+  AWS Object ID: __OBJECT__~https://console.aws.amazon.com/s3/home?region=+__OBJECT__.violations.__RULE__.region+#&bucket=+__OBJECT__+&prefix=
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
+sns-rule-1:
+  AWS Region: +__OBJECT__.violations.__RULE__.region+
+  AWS Tags: __TAGS__
