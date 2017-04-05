@@ -30,23 +30,11 @@ variables:
     description: "Would you like to receive empty reports? Options - true / false. Default is false."
     required: true
     type: string
-    default: 
-  AUDIT_AWS_SEND_ON:
-    overrides:
-      - AUDIT_AWS_CLOUDTRAIL_SEND_ON
-      - AUDIT_AWS_EC2_SEND_ON
-      - AUDIT_AWS_ELB_SEND_ON
-      - AUDIT_AWS_REDSHIFT_SEND_ON
-      - AUDIT_AWS_RDS_SEND_ON
-      - AUDIT_AWS_IAM_SEND_ON
-      - AUDIT_AWS_S3_SEND_ON
-      - AUDIT_AWS_CLOUDWATCH_SEND_ON
-      - AUDIT_AWS_KMS_SEND_ON
-      - AUDIT_AWS_SNS_SEND_ON
+    default: false
+  AUDIT_AWS_SEND_ON_TESTING:
     description: "Send reports always or only when there is a change? Options - always / change. Default is change."
     required: true
     type: string
-    default: "change"
   AUDIT_AWS_OWNER_TAG:
     overrides:
       - AUDIT_AWS_CLOUDTRAIL_OWNER_TAG
