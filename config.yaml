@@ -30,7 +30,7 @@ variables:
     description: "Would you like to receive empty reports? Options - true / false. Default is false."
     required: true
     type: string
-    default: false
+    default: 
   AUDIT_AWS_SEND_ON:
     overrides:
       - AUDIT_AWS_CLOUDTRAIL_SEND_ON
