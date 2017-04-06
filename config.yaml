@@ -14,7 +14,7 @@ variables:
     description: "Enter the email address(es) that will receive notifications. If more than one, separate each with a comma."
     required: false
     type: string
-    default:
+    default: false
   AUDIT_AWS_ALLOW_EMPTY:
     overrides:
       - AUDIT_AWS_CLOUDTRAIL_ALLOW_EMPTY
@@ -31,10 +31,6 @@ variables:
     required: true
     type: string
     default: false
-  AUDIT_AWS_SEND_ON_TESTING:
-    description: "Send reports always or only when there is a change? Options - always / change. Default is change."
-    required: true
-    type: string
   AUDIT_AWS_OWNER_TAG:
     overrides:
       - AUDIT_AWS_CLOUDTRAIL_OWNER_TAG
