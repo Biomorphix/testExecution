@@ -31,7 +31,7 @@ variables:
     required: true
     type: string
 
-  AUDIT_AWS_OWNER_TAG:
+  AUDT_AWS_OWNER_TAG:
     overrides:
       - AUDIT_AWS_CLOUDTRAIL_OWNER_TAG
       - AUDIT_AWS_EC2_OWNER_TAG
