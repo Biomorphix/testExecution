@@ -30,7 +30,7 @@ variables:
     description: "Would you like to receive empty reports? Options - true / false. Default is false."
     required: true
     type: string
-    default: false
+
   AUDIT_AWS_OWNER_TAG:
     overrides:
       - AUDIT_AWS_CLOUDTRAIL_OWNER_TAG
